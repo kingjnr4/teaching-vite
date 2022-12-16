@@ -1,10 +1,11 @@
+import './styles/greetings.css'
 function Greeting() {
   const name = 'faloke';
   const time = 'evening';
   return (
     <>
-      <p>Hello {name}</p>
-      <p>Good {time}</p>
+      <p id="name">Hello {name}</p>
+      <p className="time">Good {time}</p>
     </>
   );
 }
