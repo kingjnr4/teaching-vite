@@ -1,0 +1,12 @@
+p {
+  text-transform: uppercase;
+  color: red;
+}
+
+#name {
+  background-color: blue;
+}
+
+.time {
+  background-color: aqua;
+}
